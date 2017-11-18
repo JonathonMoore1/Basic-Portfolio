@@ -9,21 +9,30 @@
 
 <body>
 
-	<header>
+	<header class="clearfix">
 		<div id="nametag">
-			<h1>Jonathon Moore</h1>
+			<h1>Jon Moore</h1>
 		</div>
 
-		<div class="pageLinks">
-			<link rel="stylesheet" type="text/css" href="">
-			<p>Portfolio</p>
-			<p>Contact</p>
+		<div id="page-links">
+
+			<ul>
+
+				<li class="about-button"><a href="index.html" style="text-decoration: none">About</a></li>
+
+				<li class="portfolio-button"><a href="portfolio.html" style="text-decoration: none">Portfolio</a></li>
+	
+				<li class="contact-button"><a href="contact.html" style="text-decoration: none">Contact</a></li>
+
+			</ul>
+
 		</div>
 	</header>
 
-	<section id="wrapper"><!--Refers to everything in the browser window-->
+	<div class="clearfix">
+	<section id="container"><!--Refers to everything in the browser window-->
 
-		<div id="contactForm"><!--Contact Box-->
+		<div class="contact-form"><!--Contact Box-->
 			
 			<h2>Contact</h2>
 
@@ -41,7 +50,7 @@
 
 				Message
 				<br>
-				<textarea name="message"></textarea>
+				<textarea name="message" rows="10" cols="22"></textarea>
 
 				<br><br>
 				
@@ -49,32 +58,32 @@
 
 
 			</form>
-		
+		</div>
 		</div>
 	</section>
 
 	<aside>
-		<div id="connect">
+		<div class="connect">
 
 			<h3>Connect with Me</h3>
 
 			<br>
 			
-				<!--GitHub Link-->
-			<a href="https://github.com/JonathonMoore1" target="_blank"><img src="https://cdn3.iconfinder.com/data/icons/free-social-icons/67/github_square_black-64.png" alt="GitHub"></a>
-				
+			<!--GitHub Link-->
+			<a id="github" href="https://github.com/JonathonMoore1" target="_blank"><img src="https://cdn3.iconfinder.com/data/icons/free-social-icons/67/github_square_black-64.png" alt="GitHub"></a>
+					
 				<!--LinkedIn Link-->
-			<a href="https://www.linkedin.com/in/jonathon-moore-372b0613b/" target="_blank"><img src="https://cdn3.iconfinder.com/data/icons/free-social-icons/67/linkedin_square_black-64.png" alt="LinkedIn"></a>
+			<a id="linkedin" href="https://www.linkedin.com/in/jonathon-moore-372b0613b/" target="_blank"><img src="https://cdn3.iconfinder.com/data/icons/free-social-icons/67/linkedin_square_color-64.png" alt="LinkedIn"></a>
 
 				<!--Stack Overflow Link-->
-			<a href="https://stackoverflow.com/users/8665915/jon-moore"><img src="https://cdn1.iconfinder.com/data/icons/social-black-buttons/512/overflow-64.png" alt="Stack Overflow"></a>
+			<a id="stackoverflow" href="https://stackoverflow.com/users/8665915/jon-moore"><img src="https://cdn2.iconfinder.com/data/icons/social-flat-buttons-3/512/overflow-64.png" alt="Stack Overflow" height="58px"></a>
 
 		</div>
 	</aside>
 
 	<footer id="copyright">
 		<p>&copy;2017 Jonathon Moore</p>
-	</footer>
-
+	</footer> 
+	</div>
 </body>
 </html>
