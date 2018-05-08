@@ -154,6 +154,7 @@ h2{
 	text-align: left;
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	font-size: 20px;
+	line-height: 1.5;
 	color: #9a94a1;
 	padding-top: 30px;
 }
@@ -210,8 +211,14 @@ footer {
 
 /*-------------------------*/
 
-.photo-text {
+.project {
+	position: relative;
+	float: left;
+	padding: 40px 20px 28px 30px;
+	z-index: 0;
+}
 
+.project-title {
 	position: absolute;
 	bottom: 3;
 	left: 10;
@@ -226,74 +233,8 @@ footer {
 	background-color: #4aaaa5;
 	z-index: 1;
 }
-.photo1 {
-	position: relative;
-	float: left;
-	padding: 40px 20px 28px 30px;
-	z-index: 0;
-
-}
-
-.photo-text1 {
-	position: absolute;
-	height: 40px;
-	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-	font-size: 20px;
-	color: white;
-	background-color: #4aaaa5;
-}
-
-.photo2 {
-	position: relative;
-	float: left;
-	padding: 40px 30px 28px 20px;
-	z-index: 0;
-}
-
-.photo-text2 {
-	position: absolute;
-	height: 40px;
-	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-	font-size: 20px;
-	color: white;
-	background-color: #4aaaa5;
-}
-
-.photo3 {
-	position: relative;
-	float: left;
-	padding: 28px 20px 28px 30px;
-	z-index: 0;
-}
-
-.photo-text3 {
-	position: absolute;
-	height: 40px;
-	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-	font-size: 20px;
-	color: white;
-	background-color: #4aaaa5;
-}
-
-.photo4 {
-	position: relative;
-	float: left;
-	padding: 28px 20px 0px 20px;
-	z-index: 0;
-}
-
-.photo-text4 {
-	position: absolute;
-	height: 40px;
-	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-	font-size: 20px;
-	color: white;
-	background-color: #4aaaa5;
-}
-
 
 /*--Selectors specific to contact.html--*/
-
 
 form {
 	position: absolute;
@@ -305,6 +246,7 @@ form {
 input {
 	width: 100%;
 }
+
 .submit {
 	background-color: #4aaaa5;
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
